@@ -6,8 +6,6 @@ const locationRoutes = require('./routes/locationRoutes');
 const app = express();
 
 mongoose.connect('mongodb+srv://nikunj:1234@cluster0.djsjf.mongodb.net/?retryWrites=true&w=majority&appName=cluster0', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
 });
 
 app.use(bodyParser.json());
