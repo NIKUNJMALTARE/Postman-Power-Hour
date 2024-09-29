@@ -5,7 +5,7 @@ const locationRoutes = require('./routes/locationRoutes');
 
 const app = express();
 
-mongoose.connect('mongodb://127.0.0.1:27017/location', {
+mongoose.connect('mongodb+srv://nikunj:1234@cluster0.djsjf.mongodb.net/?retryWrites=true&w=majority&appName=cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
